@@ -22,9 +22,11 @@ const Body = () => {
                         </div>
                         <div className="plan-info-main-container">
                             <p className='plan-info'>what you get :</p>
-                            <p className='plan-info-mes '>Upto 25 users</p>
-                            <p className='plan-info-mes'>Upto 25 users</p>
-                            <p className='plan-info-mes'>Upto 25 users</p>
+                            <div className="p-4">
+                                <p className='plan-info-mes '>Upto 25 users</p>
+                                <p className='plan-info-mes'>Upto 25 users</p>
+                                <p className='plan-info-mes'>Upto 25 users</p>
+                            </div>
                         </div>
                         <a href="#" className='underline underline-offset-2'>Explore features</a>
                     </div>
@@ -42,9 +44,11 @@ const Body = () => {
                         </div>
                         <div className="plan-info-main-container">
                             <p className='plan-info'>what you get :</p>
-                            <p className='plan-info-mes '>Upto 25 users</p>
-                            <p className='plan-info-mes'>Upto 25 users</p>
-                            <p className='plan-info-mes'>Upto 25 users</p>
+                            <div className="p-4">
+                                <p className='plan-info-mes '>Upto 25 users</p>
+                                <p className='plan-info-mes'>Upto 25 users</p>
+                                <p className='plan-info-mes'>Upto 25 users</p>
+                            </div>
                         </div>
                         <a href="#" className='underline underline-offset-2'>Explore features</a>
                     </div>
@@ -62,9 +66,11 @@ const Body = () => {
                         </div>
                         <div className="plan-info-main-container">
                             <p className='plan-info'>what you get :</p>
-                            <p className='plan-info-mes '>Upto 25 users</p>
-                            <p className='plan-info-mes'>Upto 25 users</p>
-                            <p className='plan-info-mes'>Upto 25 users</p>
+                            <div className="p-4">
+                                <p className='plan-info-mes '>Upto 25 users</p>
+                                <p className='plan-info-mes'>Upto 25 users</p>
+                                <p className='plan-info-mes'>Upto 25 users</p>
+                            </div>
                         </div>
                         <a href="#" className='underline underline-offset-2'>Explore features</a>
                     </div>
@@ -83,8 +89,10 @@ const Body = () => {
                         </div>
                         <div className="plan-info-main-container">
                             <p className='plan-info'>what you get :</p>
-                            <p className='plan-info-mes '> - More than 75 users</p>
-                            <p className='plan-info-mes'> - Customise of all other features</p>
+                            <div className="p-4">
+                                <p className='plan-info-mes '> - More than 75 users</p>
+                                <p className='plan-info-mes'> - Customise of all other features</p>
+                            </div>
                         </div>
                     </div>
                 </CardBody>
@@ -100,8 +108,10 @@ const Body = () => {
                         </div>
                         <div className="plan-info-main-container">
                             <p className='plan-info'>what you get :</p>
-                            <p className='plan-info-mes '> - More than 75 users</p>
-                            <p className='plan-info-mes'> - Customise of all other features</p>
+                            <div className="p-4">
+                                <p className='plan-info-mes '> - More than 75 users</p>
+                                <p className='plan-info-mes'> - Customise of all other features</p>
+                            </div>
                         </div>
                     </div>
                 </CardBody>
