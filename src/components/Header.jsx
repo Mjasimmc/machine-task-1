@@ -6,9 +6,9 @@ const Header = () => {
     const { sidebarOpen, setSidebarOpen } = useContext(SideBarContext);
     return (
         <nav className='main-header flex justify-end items-center'>
-            <div className={`header-main-logo-container duration-500 ${sidebarOpen ? '' : 'max-md:-translate-x-[100%]'}`}>
+            <div className={`header-main-logo-container duration-500`}>
                 <div className="header-main-logo-corner duration-500 z-10 max-lg:hidden max-lg:-translate-x-[100%]"></div>
-                <div className={`header-main-logo  z-20`}>
+                <div className={`header-main-logo  z-20 max-lg:bg-transparent`}>
                     <img src={Logo} alt="" />
                 </div>
             </div>
